@@ -2,7 +2,7 @@ name: "Make and deploy to gh-pages"
 
 on:
   push:
-    branches: [master]
+    branches: [master, main]
   workflow_dispatch:
 
 
